@@ -74,7 +74,7 @@ window.SITE_PROFILE = {
   // url 留空可隐藏链接；没有有效链接时显示“联系方式待补充”。
   links: [
     { label: { en: "GitHub", zh: "GitHub" }, url: "https://github.com/Haeiou414" },
-    { label: { en: "Email", zh: "邮箱" }, url: "woodshole414@gmail.com" },
+    { label: { en: "Email", zh: "邮箱" }, url: "mailto:woodshole414@gmail.com" },
     { label: { en: "Elsewhere", zh: "其他平台" }, url: "" }
   ]
 };
