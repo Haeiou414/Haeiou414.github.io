@@ -40,10 +40,10 @@ window.SITE_PROFILE = {
   ],
   // OPTIONAL FACTS / 可选资料：shown below About; blank rows are hidden.
   // 显示在“关于”下方，未填写的行自动隐藏。
-  role: { en: "", zh: "" },       // e.g. "Designer" / "设计师"
-  location: { en: "", zh: "" },   // e.g. "Shanghai" / "上海"
-  interests: { en: "", zh: "" },  // e.g. "Photography, computing" / "摄影、计算机"
-  currently: { en: "", zh: "" },  // e.g. "Learning typography" / "学习字体设计"
+  role: { en: "Student", zh: "学生" },       // e.g. "Designer" / "设计师"
+  location: { en: "Suzhou", zh: "苏州" },   // e.g. "Shanghai" / "上海"
+  interests: { en: "Physics, marine biology, music", zh: "物理，海洋生物，音乐" },  // e.g. "Photography, computing" / "摄影、计算机"
+  currently: { en: "Learning AI/CS", zh: "学习AI/计算机" },  // e.g. "Learning typography" / "学习字体设计"
   // Optional short note beneath your biography / 自述下方的可选补充说明。
   note: { en: "", zh: "" },
   // SELECTED WORK / 作品选集
@@ -73,8 +73,8 @@ window.SITE_PROFILE = {
   // Leave url empty to hide a link. With no links, the contact placeholder appears.
   // url 留空可隐藏链接；没有有效链接时显示“联系方式待补充”。
   links: [
-    { label: { en: "GitHub", zh: "GitHub" }, url: "" },
-    { label: { en: "Email", zh: "邮箱" }, url: "" },
+    { label: { en: "GitHub", zh: "GitHub" }, url: "https://github.com/Haeiou414" },
+    { label: { en: "Email", zh: "邮箱" }, url: "woodshole414@gmail.com" },
     { label: { en: "Elsewhere", zh: "其他平台" }, url: "" }
   ]
 };
